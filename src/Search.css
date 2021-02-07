@@ -1,0 +1,74 @@
+form {
+    position: relative;
+  }
+  
+
+input {
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px #ff7c7c, 0 0 0 20px #ffffffeb;
+    transform: scale(0.6);
+    height: 40px;
+    width: 100%;
+    height: 96px;
+    font-size: 60px;
+    line-height: 1;
+    color: white;
+}
+  
+  
+input:focus {
+    outline: 0;
+}
+
+input, button {
+    border: 0;
+    background-color: transparent;
+}
+
+button {
+    position: absolute;
+    cursor: pointer;
+    right: 182px;
+    top: 14px;
+}
+
+button span {
+    position: absolute;
+    top: 51px;
+    left: 31px;
+    display: block;
+    border-radius: 10px;
+    transform: rotateZ(
+    52deg
+    );
+    transition: 0.5s ease all;
+}
+
+button span:before, button span:after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 15px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 10px;
+    transform: rotateZ(0);
+    transition: 0.5s ease all;
+}
+
+.search {
+    position: relative;
+    top: 18px;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    margin-top: 0;
+    border-width: 15px;
+    border: 4px solid #fff;
+    background-color: transparent;
+    border-radius: 50%;
+    transition: 0.5s ease all;
+}
